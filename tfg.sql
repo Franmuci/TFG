@@ -27,6 +27,10 @@ SET time_zone = "+00:00";
 -- Estructura de tabla para la tabla `almacen`
 --
 
+CREATE DATABASE tfg;
+
+USE tfg
+
 CREATE TABLE `almacen` (
   `id` int(11) NOT NULL,
   `producto` varchar(50) NOT NULL,
